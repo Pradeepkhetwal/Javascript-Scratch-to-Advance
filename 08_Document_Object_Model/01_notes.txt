@@ -1,0 +1,13 @@
+To understand DOM we first need an webpage so index.html mein webpage ka code hai.And we will link an css file to it as well.
+
+Imp-:Adding js file to html file.
+The file is added inside the head tag
+  <script src = "./102.js" defer></script>
+here with the help of defer the browser first start parsing and when it sees the  js file  in the script tag it start to loads it and on the other hand it keeps on parsing the rest of the html document , when the js file is completely loaded the browser keeps on parsing the html document and completely parse the document then final link between js file and html file is made by this time is saved and chances of parsing error are less.
+
+Now when the browser renders or parse any webpage it creates a document object of that page , this document object contains the information of all html elements and all the tags and all of the details of the webpage. 
+
+This document object is then added to the window object of the javascript by the browser as a field.
+
+This document object has many methods and properties which are very useful, so here in DOM lecture we will be discussing the document object in detail.
+
