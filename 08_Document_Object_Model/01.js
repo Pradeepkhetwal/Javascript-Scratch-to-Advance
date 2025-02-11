@@ -5,3 +5,5 @@ console.log(document)//as window object is present by default so it will automat
 
 //accessing an html element by it's id.Using document object method.
 const username = console.log(document.getElementById("username")); //it will return an object of that element whose id is username. so we can store it in a const.
+
+
