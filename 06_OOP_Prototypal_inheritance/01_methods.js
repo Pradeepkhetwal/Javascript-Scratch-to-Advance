@@ -1,8 +1,7 @@
 //methods.
 //methods are function inside object.
-
-
 //this refers to the current object.
+
 const person = {
   firstName: "pradeep",
   age: 8,

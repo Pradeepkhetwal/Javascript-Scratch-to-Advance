@@ -18,7 +18,7 @@ console.log(typeof obj)//prints object
 
 // To check for an container to be array or not we have this method.
 
-console.log(Array.isArray(fruits));//returns true
+console.log(Array.isArray(fruits));//returns true.
 console.log(Array.isArray(obj));//returns false.
 
 

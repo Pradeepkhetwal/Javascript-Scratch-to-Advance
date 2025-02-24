@@ -11,7 +11,7 @@ const user = {
 
 //suppose we want to create thousands of object with these above keys but we want their different values.
 
-// so we can create a function for the above requiremenet. This function will return object.
+// so we can create a function for the above requirement. This function will return object.
 
 function createUser(firstName, lastName, email, age) {
   const user = {};

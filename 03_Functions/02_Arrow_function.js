@@ -1,6 +1,6 @@
 //Arrow function.
 
-//function keyword hata k from function expression we use => sign.
+//function keyword hata k from function expression we use ()=> sign.
 
 //this is arrow function.
 const hello = () => {
