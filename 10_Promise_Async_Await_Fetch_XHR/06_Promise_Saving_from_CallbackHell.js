@@ -38,6 +38,10 @@ function changeText(element, text, color, time) {
 
 //Aur jaise ki we know agar we do not return promise explicitly from inside the then functin it automatically returns undefined . So we need to return changeText as it is also returning a promise but here as we are using arrow function so in arrow function we can remove the curley brackets and we can return in one line without writing the return keyword so that's why we don't have written the return keyword.
 
+//if we don't use arrow function it will look like this .
+
+// changeText(heading1,"one","red",1000).then(()=>{
+//   return changeText(heading2,"two,"purple",1000)}).then so on
 
 changeText(heading1, "one", "red", "1000")
   .then(() => changeText(heading2, "two",  "red","1000"))
