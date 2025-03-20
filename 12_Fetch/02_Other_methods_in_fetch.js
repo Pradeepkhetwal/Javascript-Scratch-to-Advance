@@ -2,7 +2,8 @@ const URL = "https://jsonplaceholder.typicode.com/posts";
 
 //now andar jo concept hai like handling promise is same the only minor change here while make the get request is the we need to additionaly pass an extra parameter in the form of an object inside the fetch();
 
-//here method:'POST' specifies we want to make post request(it can be any request of your choice by default it is get so in that you don't explicitly define this extra parameter).
+//here method:'POST' specifies we want to make post request(it can be any request of your choice by default it is get so in get request you don't explicitly define this extra parameter which we are passing here), baki method mein jo bhi request define karoge wahi hogi all are same.
+
 
 //As we are making a post request so we have to send data to the server or we can say we will create a new data in the server.
 // so The body property below is used to send the data you want to include in the request.
