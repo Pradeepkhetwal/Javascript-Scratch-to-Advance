@@ -1,0 +1,15 @@
+AJAX Stands for Asynchronous javascript and XML.
+
+In simple words AJAX is used to make api calls.
+
+AJAX is a set of web development techniques, that uses many web technologies on the client-side to create Asynchronous web application.
+
+with ajax webapplication can send and retrieve data from a server Asynchronously (in the background) without interferring with the display and behaviour of the existing page.
+
+we don't user date in XML format anymore
+we use json now.
+
+we have 3 most common ways to create and send request to server or( to make api call)
+1. XHR - xmlHTTPRequest(old way of doing or making api calls)
+2. fetch API (the new way of doing)
+3. axios (this is the 3rd party library).
