@@ -13,7 +13,7 @@ console.log("script starts");
 
 async function getPosts() {
 
-  //fetch will return a promise so we have used await keyword which means jab tak promise returned by fetch so to resolve ya to reject nahi ho jata tab tak wait karo . And either we get response or rejection we have stored it in a const named response.
+  //fetch will return a promise so we have used await keyword which means jab tak promise returned by fetch  resolve ya to reject nahi ho jata tab tak wait karo . And either we get response or rejection we have stored it in a const named response.
 
   //now as you know fetch jo bhi promise return karta hai uski resolve value ek respone object hota hai not the response data. so it has many properties.
   const response = await fetch(URL);

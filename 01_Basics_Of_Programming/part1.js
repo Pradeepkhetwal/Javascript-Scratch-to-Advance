@@ -1,6 +1,7 @@
 // Variables
 "use strict";
-// Note bina var likhne par bhi variable create kar deta hai js same as python. So this can cause many errors while in big projects , so we can use strict mode by writing "use strict" on the top by writing code
+// Note bina var likhne par bhi variable create kar deta hai js same as python. So this can cause many errors while in big projects , so we can use strict mode by writing "use strict" on the top in the code and it will prevent us from many problems like it will throw error if in case we declare any variable without using let , char and const. and also in cases like we have variable or constants with same name. In using reseved keywords name as the name of the variable or constants.
+
 
 var firstname = "This is a variable";
 

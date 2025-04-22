@@ -8,6 +8,7 @@ let myVariable = null;
 console.log(myVariable);//this will print null.
 console.log(typeof myVariable);//this will print object.So this is a bug in JS isko null dena tha par ye object deta hai.
 
+
 //BigInt datatype.
 
 let myNumber = BigInt(1231234556);
